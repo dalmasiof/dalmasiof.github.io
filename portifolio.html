@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meu Portifólio</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap -->
+   
+
+    <link href="bootstrap/css/estilo.css" rel="stylesheet">
+    
+     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+
+
+	 <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barraNav">
+                  <span class="sr-only">Alternar Navegação</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+            </div> 
+           
+
+        
+            <div class="collapse navbar-collapse" id="barraNav">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#vantagens">Vantagens</a></li>
+                    <!--<li><a href="#cli">Clientes</a></li>-->
+                    <li><a href="#modelos">Modelos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="portifolio.html">Portifólio</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+		
+
+ 	<div class="container divs sobre">
+       	<div class="row col-md-12">
+       		<h1 align="center">Confira meus trabalhos</h1>
+       	</div>
+       	<div >
+       		<div class="col-md-4 caixa" >
+       			<h2>Site one page da empresa LoveSkate(Fictícia)</h2>
+       			<img src="">
+       		</div>
+       		<div class="col-md-4 caixa" >
+       			<h2>Site Institucional da escola Lorem Ipsum(Fícticia)</h2>
+       		</div>
+       		<div class="col-md-4 caixa" >
+       			<h2>Site Dinâmico Nosso Dia(Ficticio)</h2>
+       		</div>
+       	</div>
+    </div>
+	
+
+
+
+
+	<div class="container anima divs">
+		<h1 align="center">Contato</h1>
+		<div class="row col-md-4">
+			<h2><b>Então, rolou interesse?</b></h2> 
+			<p class="Ttipos">Entre em contato para um atendimento personalizado e entre no mercado como nunca antes.</p>
+		</div>
+		<div class="col-md-4">
+			<form>
+				<div class="form-group">
+					<input  type="text" name="" placeholder="Digite seu nome"class="form-control" required>
+					<input type="email" name="" placeholder="Digite o email" class="form-control" required>
+					<input type="text" name="" placeholder="Digite o assunto" class="form-control" required>
+					<textarea type="text" placeholder="Digite sua mensagem" class="form-control" style="height: 100px;" required></textarea>
+				</div>
+				<div align="center">
+					<button type="submit" class="btn btn-info" >
+     					Enviar e-mail
+
+     				</button>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-4" id="contato">
+			<br>
+			<label class="Ttipos">Telefone: (11)96340-6824</label><br>
+			<h2 style="color: black;">Redes Sociais:</h2><br>
+			<div  id="lista">
+			
+					<ul class="row col-md-12 lista">
+						<li><img src="img/github.png" class="img-responsive  redes " data-toggle="tooltip" title="Repositório GitHub" data-placement="bottom"></li>
+						<li><img src="img/face.png" class="img-responsive redes " data-toggle="tooltip" title="Página no Facebook" data-placement="bottom"></li>
+						<li><img src="img/in.png" class="img-responsive  redes" data-toggle="tooltip" title="LinkdIn" data-placement="bottom"></li>
+					</ul>
+					
+			</div>			
+		</div>
+	</div>
+				
+				
+		
+	<footer>
+		<div class="rodape" align="center">
+			<a href="portifolio.html">Conheça meu trabalho</a><br/>
+			Todos os direitos reservados	
+		</div>
+
+	</footer>
+
+    
+    
+	
+  
+    <script type="text/javascript" src="bootstrap/js/script.js" ></script>
+    <script type="text/javascript">
+   $(function () 
+   {
+      $('[data-toggle="tooltip"]').tooltip()
+   })
+    </script>
+    <script type="text/javascript">
+    	$("#barraNav").on("click", function(){
+   $('.navbar-collapse').collapse('hide');
+});
+    </script>
+</body>
+</html>

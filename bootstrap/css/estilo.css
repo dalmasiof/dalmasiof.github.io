@@ -1,21 +1,18 @@
 
-html{
-	overflow: auto;
-}
 body{
 	background: linear-gradient(50deg, #0097e6,#8c7ae6);/*padrão é de cima para baixo(to bottom,to right, to left, to top)*/
 	width: 100%;
 	overflow: auto; 
 	overflow-x: hidden;
 
-	background-attachment: fixed;
+	
 	
 }
 
 
 .navbar{
 	font-size: 25px;
-	overflow-x: hidden;
+
 	background-color: rgba(0,0,0,0.7);
 
 }
@@ -85,8 +82,9 @@ body{
 
  
 
- .rodape{
+ #rodape{
  	position: bottom;
+
  	color: white;
  	background: black;
  }
@@ -127,11 +125,23 @@ body{
 	
 
 }
+
+.sobre{
+	margin-top: 50px;
+}
+
+
 .btn{
 	margin-left: 13%;
+	margin-bottom: 3%;
 	width: 200px;
 	height: 50px;
 	transition: 0.4s;
+	
+}
+
+.caixa{
+	border: solid 2px black;
 	
 }
 
@@ -141,9 +151,13 @@ body{
 }
  /*---------------------------TEXTo------------------------*/
 .Tsobre{
-	font-size: 25px;
+	font-size: 35px;
  }
 
+#vcsabia {
+font-size: 25px;
+
+}
  .Ttipos{
 	font-size: 30px;
  }
@@ -170,7 +184,9 @@ h1{
 	}
 
 	
-
+.form-group{
+	margin-left: -40px;
+}
 	
 
 
