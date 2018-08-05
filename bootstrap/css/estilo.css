@@ -34,6 +34,14 @@ body{
 	transition: 0.4s;
 }
 
+.imagemS{
+	transition: 0.4s;
+}
+
+.imagemS:hover{
+	opacity: 0.7;
+}
+
 .imagem:hover{
 	transform: translate3d(0,-5px,5px);
 	
@@ -41,7 +49,17 @@ body{
 	box-shadow: 0px 10px 20px black;
 }
 
-
+.img-logo
+{
+	height: 40px;
+	width: 132px;
+	background: url(img/esse.sgv) no-repeat ;
+	
+	display: block;
+	background-size: contain; 
+	color: transparent;
+	
+}
 
 #portifolio .imagem{
 	width: 900px;
@@ -141,9 +159,13 @@ body{
 }
 
 .caixa{
-	border: solid 2px black;
+
+	background: white;
+	border-bottom:  solid 15px #0097e6;
 	
+
 }
+
 
 .btn:hover{
 	border-radius: 50px;
