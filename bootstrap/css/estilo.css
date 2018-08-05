@@ -3,7 +3,7 @@ html{
 	overflow: auto; 
 	}
 body{
-	background: linear-gradient(50deg, #0097e6,#8c7ae6);/*padrão é de cima para baixo(to bottom,to right, to left, to top)*/
+	background: black;/*padrão é de cima para baixo(to bottom,to right, to left, to top)*/
 	width: 100%;
 	overflow-x: hidden;
 
