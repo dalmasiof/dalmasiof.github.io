@@ -1,8 +1,10 @@
 
+html{
+	overflow: auto; 
+	}
 body{
 	background: linear-gradient(50deg, #0097e6,#8c7ae6);/*padrão é de cima para baixo(to bottom,to right, to left, to top)*/
 	width: 100%;
-	overflow: auto; 
 	overflow-x: hidden;
 
 	
@@ -12,7 +14,7 @@ body{
 
 .navbar{
 	font-size: 25px;
-overflow: auto; 
+	overflow: auto; 
 	background-color: rgba(0,0,0,0.7);
 
 }
