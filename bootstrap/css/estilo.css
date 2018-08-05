@@ -12,7 +12,7 @@ body{
 
 .navbar{
 	font-size: 25px;
-
+overflow: auto; 
 	background-color: rgba(0,0,0,0.7);
 
 }
