@@ -14,7 +14,7 @@ body{
 
 .navbar{
 	font-size: 25px;
-	overflow: auto; 
+	overflow-x: hidden; 
 	background-color: rgba(0,0,0,0.7);
 
 }
