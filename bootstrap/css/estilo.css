@@ -68,13 +68,18 @@ body{
 	height: 400px;
 }
  .imagemP{
-	width: 300px;
+	width: 250px;
 	height: 300px;
 }
 
 .imagemP:hover{
 	opacity: 0.8;
 	
+}
+
+.img-circle{
+	width: 300px;
+	height: 300px;
 }
 
 .anima-inverso{

@@ -1,0 +1,178 @@
+﻿body{
+	background: grey;
+	
+	overflow-x: hidden;
+}
+
+.carousel-item h3{
+	font-size: 50px;
+	color: white;
+}
+
+#barraNav a:hover{
+	background: #e74c3c;
+	color: black;
+
+}
+
+#barraNav a{
+	
+	transition: 0.4s;
+	 
+}
+#barraNav li{
+	font-size: 25px;
+}
+
+
+#estilos ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.imagem{
+	width: 350px;
+	height: 350px;
+	border-radius: 50px;
+	transition: 0.4s ease;
+}
+
+.caixa{
+  position: relative;
+  width: 350px;
+   border-radius: 50px;
+
+}
+
+.caixa:hover .overlay{
+	
+	height: 100%;
+}
+
+.card{
+	
+	transition: 0.4s;
+}
+.card:hover {
+	transform: translate3d(0px,-10px,0px);
+	box-shadow: 0px 10px 10px black;
+	
+
+}
+
+.redes ul li{
+	display: inline;
+	list-style: none;
+
+}
+
+.imgRedes{
+	height: 100px;
+	width: 100px;
+}
+
+.imgRedesI{
+	height: 110px;
+	width: 150px;
+}
+
+
+
+.imagemSites: hover{
+	width:  700px;
+	height: 700px;
+
+}
+
+
+
+.overlay{
+  border-radius: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  opacity: 0.7;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .4s ease;
+}
+
+.carousel-inner{
+	margin-top: 50px;
+	object-fit: fill;
+	width: 100%;
+	
+	height: 100%;
+	overflow: auto;
+	overflow-x: hidden;
+}
+h1{
+	font-size: 60px;
+}
+.divs{
+	width: 100%;
+	background:  #dcdde1;
+}
+
+.divs p{
+	font-size: 30px;
+}
+
+.imagemC{
+	width: 100%;
+	object-fit: fill;
+	height: 100%;
+	overflow: auto;
+}
+
+
+.rodape{
+	background: black;
+	color: white;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.imgServ{
+	width:100px;
+	height:100px;
+	margin-left: 170px;
+}
+
+.card p{
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.form-control{
+margin: 10px;
+}
+
+.btn{
+	width: 150px;
+	font-size: 20px;
+	margin: 20px 0px 0px 10px; 
+}
+
+
+#contato h1{
+	font-size: 50px;
+	color: black;
+}
+
+.redes h2{
+	color: #dcdde1;
+}
